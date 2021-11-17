@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+ul{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    list-style: none;
+    padding-bottom: 10px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+
+}
+a {
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+.sec1{
+    height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 
+    0, 0.3),rgba(0, 0, 0, 0.7)),
+    url(../images/manhattan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.sec1 h1{
+    font-size: 45px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.sec1 a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 2px solid #fff;
+    margin-top: 25px;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 25px;
+}
+/*sec1 ends*/
+
+.sec2{
+    background-color: white;
+    padding: 80px 100px;
+
+}
+.s2row1{
+    display: flex;
+    margin-bottom: 5px;
+    
+
+}
+.s2col1{
+    display: flex;
+} 
+.sec2icon{
+    margin-right: 25px;
+
+}
+.sec2icon i{
+    font-size: 25px;
+    color:rgba(83, 20, 16, 0.925);
+    
+}
+.s2content h3{
+    text-align: left;
+}
+.s2content p{
+    text-transform: uppercase;
+    text-align: left;
+    text-transform: lowercase;
+    
+}
+     
+.s2col2{
+    display: flex;
+
+}
+.s2col3{
+    display: flex;
+}
+.s2row2{
+    display: flex;
+    
+}
+/*-----------------sec2ends-------------------*/
+.sec3{
+    background-color: white;
+    padding: 80px 50px;
+    display: flex;
+}
+.s3col2 img{
+    width: 80% ;
+
+}
+.s3col1 i{
+    padding-right: 15px;
+    
+    color: darkred;
+}
+.s3col1 a{
+    background-color: rgb(73, 15, 15);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding:10px 15px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 500px;
+}
+.s3col1 a:hover{
+    background-color: rgb(5, 5, 5);
+    color: rgb(238, 234, 234);
+}
+.s3col1 p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ul li{
+    padding-bottom: 5px;
+    font-weight: 500 ;
+}
+
+/*sec3 ends*/
+.sec4{
+    background-color: rgb(128, 48, 12);
+    height: 200px;
+    display: flex;
+    margin: 15px 30px;
+    padding: 20px 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.s4c1icon i{
+    padding-bottom: 10px;
+    color: black;
+    size: 50px;
+
+}
+.s4c1content h3{
+    
+    font-size: 20px;
+}
+
